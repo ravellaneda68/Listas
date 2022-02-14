@@ -56,7 +56,7 @@
                                                                </Column>
                                   </columns>
                                               <items>
-                                                <ColumnListItem >
+                                                 <ColumnListItem type="Active" press="showPostalCode" >
                                                     <cells>
                                                        <Label text="{EmployeeID}"/>
                                                        <Label text="{LastName},{FirstName}"/>
@@ -69,8 +69,8 @@
                   </Panel>
                  </HBox>
              </content>
-        </Page>
-    </pages>
- </App>
- </Shell>
+         </Page>
+        </pages>
+    </App>
+    </Shell>
 </mvc:View>
